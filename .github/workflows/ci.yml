@@ -1,4 +1,4 @@
-name: CI Pipeline
+name: DUCDN TEST CI WORKFLOW
 
 on:
   push:
