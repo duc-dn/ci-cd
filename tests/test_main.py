@@ -1,5 +1,6 @@
 from app.main import add, subtract
 
+
 def test_add():
     """Kiểm tra hàm cộng."""
     assert add(2, 3) == 5
