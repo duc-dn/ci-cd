@@ -2,9 +2,9 @@ name: DUCDN TEST CI WORKFLOW
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, develop, staging ] # Thêm các nhánh bạn muốn bảo vệ ở đây (ví dụ: develop, staging)
   pull_request:
-    branches: [ main ]
+    branches: [ main, develop, staging ] # Các PR trỏ vào các nhánh này cũng sẽ bị trigger kiểm tra
 
 jobs:
   run-checks:

@@ -10,3 +10,5 @@ def subtract(a: int, b: int) -> int:
 
 if __name__ == "__main__":
     print(f"3 + 5 = {add(3, 5)}")
+    print(f"3 + 4 = {add(3, 5)}")
+
